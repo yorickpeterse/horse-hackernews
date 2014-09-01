@@ -29,3 +29,12 @@ Build the dictionary:
 Build a Markov chain:
 
     ruby bin/horse.rb
+
+## Training
+
+Due to 95% of HackerNews comments consisting purely out of buzzwords the end
+markov chains might be a bit too cryptic. For better results one should mix in
+non HackerNews (or otherwise more varied) text. Examples could be Pride &
+Prejudice, The Declaration of Independence, YouTube comments and more. The
+dictionary script simply scans over all `.txt` files in the `corpus/` directory
+so you can save whatever you want.
